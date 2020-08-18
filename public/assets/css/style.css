@@ -1873,7 +1873,6 @@ padding-top: 40px;
   font-size: 24px;
 }
 
-
 #about-fm .row {
   padding-bottom: 20px;
 }
@@ -1886,6 +1885,44 @@ padding-top: 40px;
 #fm-counts .section-title h2::after {
   background: #50a828;
 }
+
+.fmcta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/Enactus-Tapestry.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+  
+.fmcta h3 {
+  color: linen; 
+  font-size: 28px;
+  font-weight: 700;
+}
+  
+.fmcta p {
+  color: #fff;
+}
+  
+.fmcta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+  
+.fmcta .cta-btn:hover {
+  background: indianred;
+  border-color: indianred;
+  color: #151515;
+}
+
+
 
 /*Refind*/
 #refind {
