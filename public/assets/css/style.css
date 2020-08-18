@@ -1887,7 +1887,6 @@ padding-top: 40px;
   background: #50a828;
 }
 
-
 /*Refind*/
 #refind {
   width: 100%;
@@ -1960,6 +1959,17 @@ video {
   height: auto;
 }
 
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.responsive1 {
+  width: auto;
+  max-width: 400px;
+  height: auto;
+}
 
 /*She Leads*/ 
 #sheleadsbanner {
