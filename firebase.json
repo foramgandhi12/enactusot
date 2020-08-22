@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "target": "enactusite",
     "public": "public",
     "ignore": [
       "firebase.json",
