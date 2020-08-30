@@ -3539,12 +3539,15 @@ video {
 
   #orange-color {
     color: #e75d2a;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
   }
 
   /*.font-montserrat p {
     font-family: 'Montserrat';
     font-weight: 700;
   }*/
+
 
   .column {
     float: left;
@@ -3571,6 +3574,8 @@ video {
     width: 800px;
     height: 80px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     font-size: 17px;
     color: #000000;
     padding: 2px 0;
@@ -3581,6 +3586,8 @@ video {
     width: 800px;
     height: 80px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     font-size: 17px;
     color: #000000;
     padding: 16px;
@@ -3630,6 +3637,13 @@ video {
 
   #sidsfaq .section-title h2::after {
     background: #ffde9e;
+  }
+
+  hr {
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: #30343d;
   }
 
 
