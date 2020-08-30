@@ -3517,10 +3517,14 @@ video {
   }
   
   #sidsabout {
-    background-color: #e1daff;
+    background-color: #ffffff;
   }
 
-  #sidsabout .container {
+  #sidsapply {
+    background-color: #30343d;
+  }
+
+  #sidsapply .container {
     padding-top: 20px;
   }
   
@@ -3542,58 +3546,61 @@ video {
     font-weight: 700;
   }*/
 
-  .sidspartners {
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #sidschallenge {
+    background-color: #e1daff;
+  }
+
+  #sidschallenge .container {
     padding-top: 20px;
-    padding-bottom: 30px;
   }
-  
-  .sidspartners .owl-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: px;
-  }
-  
-  .sidspartners .owl-item img {
-    width: 70%;
-    opacity: 0.5;
-    transition: 0.3s;
-    -webkit-filter: grayscale(100);
-    filter: grayscale(100);
-  }
-  
-  .sidspartners .owl-item img:hover {
-    -webkit-filter: none;
-    filter: none;
-    opacity: 1;
-  }
-  
-  .sidspartners .owl-nav, .sidspartners .owl-dots {
-    margin-top: 5px;
+
+  .container1 {
+    background-color: #ffffff;
+    width: 800px;
+    height: 80px;
     text-align: center;
-  }
-  
-  .sidspartners .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ddd !important;
-  }
-  
-  .sidspartners .owl-dot.active {
-    background-color: #ffc451 !important;
-  }
-  
-  iframe {
-  padding-left: 1px;
-  padding-right: 1px;
+    font-size: 17px;
+    color: #000000;
+    padding: 2px 0;
   }
 
+  .container2 {
+    background-color: #ffffff;
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    font-size: 17px;
+    color: #000000;
+    padding: 16px;
+  }
 
-  #sidscards {
-    background-color: #f0e5e9;
+  #darkgrey-color1 {
+    color: #30343d;
+    font-size: 55px;
+  }
+
+  .indent {
+    float: left;
+    text-indent: 100px;
+    padding: 1px;
+  }
+
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 15px;
   }
 
   @media (min-width: 1024px) {
@@ -3601,59 +3608,30 @@ video {
       background-attachment: fixed;
     }
   }
-  @media (min-width: 1024px) {
-    #sidscards {
-      background-attachment: fixed;
-    }
-  }
-  
-  #sidsevents .section-title h2::after {
-    background: #ffde9e;
-  }
 
-  #sidshighlights {
-    padding-top: 30px;
-  }
-
-  #sidshighlights .section-title h2::after {
-    background: #ffde9e;
-  }
-
-  .sidscta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/Enactus-Tapestry.jpg") fixed center center;
-    background-size: cover;
-    padding: 60px 0;
-  }
-  
-  .sidscta h3 {
-    color: linen; 
-    font-size: 28px;
-    font-weight: 700;
-  }
-  
-  .sidscta p {
-    color: #fff;
-  }
-  
-  .sidscta .cta-btn {
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
+  .btn1 {
+    border: 10px solid black;
+    background-color: #30343d;
+    padding: 40px 80px;
     font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 4px;
-    transition: 0.5s;
-    margin-top: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    cursor: pointer;
   }
-  
-  .sidscta .cta-btn:hover {
-    background: indianred;
-    border-color: indianred;
-    color: #151515;
+
+  .application {
+    border-color: #a3bbad;
+    color: #a3bbad;
+    font-size: 35px;
   }
+
+  .application:hover {
+    background-color: #a3bbad;
+    color: #30343d;
+  }
+
+  #sidsfaq .section-title h2::after {
+    background: #ffde9e;
+  }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
