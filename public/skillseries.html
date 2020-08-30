@@ -65,6 +65,7 @@
         #workshopcard a {
             color: #fcd03b;
             font-size: 15px;
+            text-decoration: underline;
         }
 
         #workshopsRow {
@@ -131,10 +132,22 @@
             display: block;
         }
 
+        #skillSeriesbanner {
+            height: 550px;
+            background: url("assets/images/skillseriesHeader2.jpg") center center;
+            background-size: cover;
+            position: relative;
+            -webkit-filter: brightness(50%);
+
+        }
+
+        #headerimage {
+            width: 35%;
+            margin-top: -3%;
+        }
+
         @media screen and (max-width: 540px) {
-            #workshopsRow {
-                
-            }
+            #workshopsRow {}
 
             #logo {
                 margin-left: -10%
@@ -143,6 +156,13 @@
             .testimonial-item img {
                 width: 75% !important;
                 margin-left: 12% !important;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            #headerimage{
+                width: 100%;
+                margin-top:-9%
             }
 
 
@@ -172,7 +192,7 @@
                             <li><a href="refind.html">Refind</a></li>
                             <li><a href="furnishingminds.html">Furnishing Minds</a></li>
                             <li><a href="raiseyourvoice.html">Raise Your Voice</a></li>
-			    <li><a href="socialinnovation.html">Social Innovation Design Sprint</a></li>
+                            <li><a href="socialinnovation.html">Social Innovation Design Sprint</a></li>
                         </ul>
                     </li>
                     <li><a href="yearbook.html">Yearbook</a></li>
@@ -187,7 +207,13 @@
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center justify-content-center">
+    <section id="skillSeriesbanner" class="d-flex align-items-center justify-content-center">
+        <img id="headerimage"
+            src="https://mcusercontent.com/ab0c66fc37e47a915aedad2af/images/f6931a73-772c-4126-b69a-1051c07f5cb6.png">
+    </section>
+
+
+    <!-- <section id="hero" class="d-flex align-items-center justify-content-center">
         <div class="container" data-aos="fade-up">
 
             <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
@@ -210,28 +236,23 @@
                         <h3><a href="#services">Workshops</a></h3>
                     </div>
                 </div>
-                <!-- <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
+               <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
                     <div class="icon-box">
                         <i class="ri-team-line"></i>
                         <h3><a href="#clients">Partners</a></h3>
                     </div>
                 </div> -->
-                <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
-                    <div class="icon-box">
-                        <i class="ri-trophy-line"></i>
-                        <h3><a href="#cta">Social Media</a></h3>
-                    </div>
-                </div>
-                <!-- <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
+
+    <!-- <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
                     <div class="icon-box">
                         <i class="ri-image-fill"></i>
                         <h3><a href="#portfolio">Highlights</a></h3>
                     </div>
                 </div> -->
-            </div>
+    <!-- </div>
 
         </div>
-    </section><!-- End Hero -->
+    </section>End Hero -->
 
     <main id="main">
 
@@ -258,7 +279,7 @@
                                 <div class="col-md-3 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
                                         <i class="icofont-briefcase-2"></i>
-                                        <span data-toggle="counter-up">3</span>
+                                        <span data-toggle="counter-up">5</span>
                                         <p>Completed Workshops</p>
                                     </div>
                                 </div>
@@ -266,7 +287,7 @@
                                 <div class="col-md-3 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
                                         <i class="icofont-clock-time"></i>
-                                        <span data-toggle="counter-up">1000</span>
+                                        <span data-toggle="counter-up">1500</span>
                                         <p>Volunteer Hours</p>
                                     </div>
                                 </div>
@@ -274,7 +295,7 @@
                                 <div class="col-md-3 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
                                         <i class="icofont-people"></i>
-                                        <span data-toggle="counter-up">500</span>
+                                        <span data-toggle="counter-up">200</span>
                                         <p>People Impacted</p>
                                     </div>
                                 </div>
@@ -352,7 +373,7 @@
         </section><!-- End About Section -->
         <!-- ======= Clients Section ======= -->
 
-        <section id="testimonials" class="testimonials">
+        <!-- <section id="testimonials" class="testimonials">
             <div class="container" data-aos="zoom-in">
                 <div class="section-title">
                     <h2>About Us</h2>
@@ -412,7 +433,7 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Testimonials Section -->
+        </section>End Testimonials Section -->
         <!-- End Clients Section -->
 
         <!-- ======= Projects Section ======= -->
@@ -421,7 +442,28 @@
                 <div class="section-title">
                     <br>
                     <h2>Workshops</h2>
-                    <p style="color: #2b475d;">Our Future Workshops</p><br>
+                    <p style="color: #2b475d;">Upcoming Workshops</p><br>
+                </div>
+                <div class="row" id="workshopsRow">
+                    <div class="col-sm-4">
+                        <div class="card" id="workshopcard">
+                            <img class="card-img-top"
+                                src="https://via.placeholder.com/1920x1100.png/fcd03b/2b475d?text=Skill+Series+Placeholders"
+                                alt="Card image cap">
+                            <div class="card-body shadow">
+                                <h5 class="card-title">Skill Series: TBA Title</h5>
+                                <p class="card-text">Date: Monday, September 14th, 2020 : 5PM</p>
+                                <p class="card-text">Featuring: TBA</p>
+                                <a href="#" target="_blank" class="card-link">Eventbrite Link (Still To Come) </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="section-title">
+                    <br>
+                    <h2>Workshops</h2>
+                    <p style="color: #2b475d;">Past Workshops</p><br>
                 </div>
                 <div class="row" id="workshopsRow">
                     <div class="col-sm-4">
@@ -430,9 +472,60 @@
                             <div class="card-body shadow">
                                 <h5 class="card-title">Skill Series: Student Success From Home</h5>
                                 <p class="card-text">Date: Wednesday, August 19th, 2020 : 5PM</p>
-                                <p class="card-text">Featuring: TBA</p><br>
-                                <a href="https://www.eventbrite.ca/e/skill-series-student-success-from-home-tickets-116363956727"
-                                    target="_blank" class="card-link">Eventbrite Link </a>
+                                <p class="card-text">Featuring: Osama Baig, Dr. MacMillan, and Lindsay Smith</p>
+                                <a href="https://www.youtube.com/watch?v=5ZOdpox5bNM&t=76s" target="_blank"
+                                    style="text-decoration: underline;" class="card-link">Watch Recording </a>
+                                <a href="https://mailchi.mp/103862b1454f/thank-you-for-attending-our-workshop"
+                                    target="_blank" class="card-link">Resoruces Covered</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row" id="workshopsRow">
+                    <div class="col-sm-4">
+                        <div class="card" id="workshopcard">
+                            <div class="card-body shadow">
+                                <h5 class="card-title">Learn Photoshop for the First Time!</h5>
+                                <p class="card-text">Date: Thursday, Jan 30th, 2020</p>
+                                <p class="card-text">Featuring: Sinan</p>
+                                <a href="https://www.eventbrite.com/e/design-workshop-learn-photoshop-for-the-first-time-tickets-89596400245#"
+                                    class="card-link">Eventbrite Link</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" id="workshopcard">
+                            <div class="card-body shadow">
+                                <h5 class="card-title">Essentials of Photography I</h5>
+                                <p class="card-text">Date: Friday, February 14th, 2020</p>
+                                <p class="card-text">Featuring: Bhavik and Rusham</p><br>
+                                <a href="https://www.eventbrite.com/e/skill-series-essentials-of-photography-i-tickets-93714523663"
+                                    class="card-link">Eventbrite Link</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" id="workshopcard">
+                            <div class="card-body shadow">
+                                <h5 class="card-title">Managing Personal Finance</h5>
+                                <p class="card-text">Date: Thursday, February 27th, 2020</p>
+                                <p class="card-text">Featuring: Faith Jonkman (Freedom Financial)</p>
+                                <a href="https://www.eventbrite.com/e/managing-personal-finances-tickets-96031333303"
+                                    class="card-link">Eventbrite Link</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" id="workshopcard">
+                            <div class="card-body shadow">
+                                <h5 class="card-title">Investing in Canadian Stocks</h5>
+                                <p class="card-text">Date: Tuesday, March 3rd, 2020</p>
+                                <p class="card-text">Instructor: Wajid Akhter (Jaz Imports & Exports)</p>
+                                <a href="https://www.eventbrite.com/o/29554182187" class="card-link">Eventbrite Link</a>
                             </div>
                         </div>
                     </div>
@@ -502,61 +595,31 @@
         </section><!-- End Cta Section -->
 
         <!-- ======= Projects Section ======= -->
+
         <section id="services" class="team">
+
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     <br>
-                    <h2>Workshops</h2>
-                    <p style="color: #2b475d;">Our Past Workshops</p>
+                    <h2>Social Media</h2>
+                    <p style="color: #2b475d;">Follow us on Instagram!</p>
                 </div>
-                <div class="row" id="workshopsRow">
-                    <div class="col-sm-4">
-                        <div class="card" id="workshopcard">
-                            <div class="card-body shadow">
-                                <h5 class="card-title">Workshop 1: Learn Photoshop for the First Time!</h5>
-                                <p class="card-text">Date: Thursday, Jan 30th, 2020</p>
-                                <p class="card-text">Featuring: Sinan</p><br>
-                                <a href="https://www.eventbrite.com/e/design-workshop-learn-photoshop-for-the-first-time-tickets-89596400245#"
-                                    class="card-link">Eventbrite Link</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <div class="card" id="workshopcard">
-                            <div class="card-body shadow">
-                                <h5 class="card-title">Workshop 2: Essentials of Photography I</h5>
-                                <p class="card-text">Date: Friday, February 14th, 2020</p>
-                                <p class="card-text">Featuring: Bhavik and Rusham</p><br>
-                                <a href="https://www.eventbrite.com/e/skill-series-essentials-of-photography-i-tickets-93714523663"
-                                    class="card-link">Eventbrite Link</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <div class="card" id="workshopcard">
-                            <div class="card-body shadow">
-                                <h5 class="card-title">Workshop 3: Managing Personal Finance</h5>
-                                <p class="card-text">Date: Thursday, February 27th, 2020</p>
-                                <p class="card-text">Featuring: Faith Jonkman (Freedom Financial)</p>
-                                <a href="https://www.eventbrite.com/e/managing-personal-finances-tickets-96031333303"
-                                    class="card-link">Eventbrite Link</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <div class="card" id="workshopcard">
-                            <div class="card-body shadow">
-                                <h5 class="card-title">Workshop 4: Investing in Canadian Stocks</h5>
-                                <p class="card-text">Date: Tuesday, March 3rd, 2020</p>
-                                <p class="card-text">Instructor: Wajid Akhter (Jaz Imports & Exports)</p>
-                                <a href="https://www.eventbrite.com/o/29554182187" class="card-link">Eventbrite Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Place <div> tag where you want the feed to appear -->
+                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank"
+                        class="crt-logo crt-tag">Powered by Curator.io</a></div>
+                <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+                <script type="text/javascript">
+                    /* curator-feed-default-feed-layout */
+                    (function () {
+                        var i, e, d = document,
+                            s = "script";
+                        i = d.createElement("script");
+                        i.async = 1;
+                        i.src = "https://cdn.curator.io/published/f1ec496b-f004-4be7-8fa0-a7bdac3de0f6.js";
+                        e = d.getElementsByTagName(s)[0];
+                        e.parentNode.insertBefore(i, e);
+                    })();
+                </script>
             </div>
         </section>
     </main><!-- End #main -->
