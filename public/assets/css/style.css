@@ -3520,6 +3520,18 @@ video {
     background-color: #ffffff;
   }
 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 15px;
+  }
+
   #sidsapply {
     background-color: #30343d;
   }
@@ -3547,13 +3559,6 @@ video {
     font-family: 'Montserrat';
     font-weight: 700;
   }*/
-
-
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-  }
 
   .row::after {
     content: "";
@@ -3607,18 +3612,13 @@ video {
   #darkgrey-color1 {
     color: #30343d;
     font-size: 55px;
+    max-width: 100%;
   }
 
   .indent {
     float: left;
     text-indent: 100px;
     padding: 1px;
-  }
-
-  .column1 {
-    float: left;
-    width: 20%;
-    padding: 15px;
   }
 
   @media (min-width: 1024px) {
