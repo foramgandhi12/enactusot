@@ -3571,26 +3571,37 @@ video {
 
   .container1 {
     background-color: #ffffff;
-    width: 800px;
+    width: 850px;
     height: 80px;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 20px;
     color: #000000;
-    padding: 2px 0;
+    padding: 10px;
   }
 
   .container2 {
     background-color: #ffffff;
-    width: 800px;
+    width: 850px;
     height: 80px;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 20px;
     color: #000000;
-    padding: 16px;
+    padding: 11px;
+  }
+
+  .container3 {
+    background-color: #ffffff;
+    width: 850px;
+    height: 80px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
   }
 
   #darkgrey-color1 {
