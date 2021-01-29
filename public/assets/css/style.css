@@ -3762,6 +3762,16 @@ video {
   right: 15px;
 }
 
+#buttonSkill{
+  border:2px solid #fcd03b;
+  background-color: rgba(0,0,0,0);
+}
+
+#buttonSkill:hover{ 
+  color:black !important;
+  background-color: #fcd03b
+}
+
 @media (max-width: 1366px) {
   .nav-menu1 .drop-down1 .drop-down1 ul {
     left: -90%;
