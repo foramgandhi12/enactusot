@@ -48,29 +48,29 @@
   <header id="header1" class="fixed-top">
     <div class="container d-flex justify-content-between">
       <!--Logo-->
-      <a href="index.html" class="enactus-logo"><img src="assets/images/logos/favicon.ico" class="enactus-logo"></a>
+      <a href="index" class="enactus-logo"><img src="assets/images/logos/favicon.ico" class="enactus-logo"></a>
       <!--Nav-->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index">Home</a></li>
+          <li><a href="about">About</a></li>
           <li class="drop-down"><a href="#projects">Projects</a>
             <ul>
-              <li><a href="sheleads.html">She Leads</a></li>
-              <li><a href="sheforshe.html">She for She</a></li>
-              <li><a href="skillseries.html">Skill Series</a></li>
-              <li><a href="refind.html">Refind</a></li>
-              <!--<li><a href="furnishingminds.html">Furnishing Minds</a></li>-->
-              <li><a href="raiseyourvoice.html">Raise Your Voice</a></li>
-              <li class="active"><a href="socialinnovation.html">Social Innovation Design Sprint</a></li>
+              <li><a href="sheleads">She Leads</a></li>
+              <li><a href="sheforshe">She for She</a></li>
+              <li><a href="skillseries">Skill Series</a></li>
+              <li><a href="refind">Refind</a></li>
+              <!--<li><a href="furnishingminds">Furnishing Minds</a></li>-->
+              <li><a href="raiseyourvoice">Raise Your Voice</a></li>
+              <li class="active"><a href="socialinnovation">Social Innovation Design Sprint</a></li>
             </ul>
           </li>
-          <li><a href="yearbook.html">Yearbook</a></li>
-          <li><a href="blog.html">News</a></li>
+          <li><a href="yearbook">Yearbook</a></li>
+          <li><a href="blog">News</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="contact.html" class="get-started-btn scrollto">Get Involved</a>
+      <a href="contact" class="get-started-btn scrollto">Get Involved</a>
 
     </div>
   </header><!-- End Header -->
@@ -108,7 +108,7 @@
                 src="assets/images/logos/Brilliant Catalyst.png" class="center" width=250px id="logo"> </a>
           </div>
           <div class="col-md-4">
-            <a href="index.html" target="_blank"><img src="assets/images/logos/enactus-ontario-tech-logo.png"
+            <a href="index" target="_blank"><img src="assets/images/logos/enactus-ontario-tech-logo.png"
                 class="center" width=250px></a>
           </div>
           <div class="col-md-4">
@@ -334,8 +334,8 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i><a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="blog.html#upcomingevents">Upcoming Events</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="index">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="blog#upcomingevents">Upcoming Events</a></li>
               <li><i class="bx bx-chevron-right"></i><a href="https://enactus.ca/event-calendar/"
                   target="_blank">Enactus Canada Events</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="assets/pdfs/Sponsorship Package.pdf"
@@ -354,7 +354,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="assets/pdfs/Enactus OTU Team Policy and Guidelines.pdf"
                   target="_blank">Policies</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#cta">Project Applications</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Join Our Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact">Join Our Team</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="https://enactus.ca/resources/team-resources/"
                   target="_blank">Team Resources</a></li>
             </ul>
