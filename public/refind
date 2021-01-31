@@ -47,11 +47,11 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex justify-content-between">
 <!--Logo-->
-      <a href="index" class="enactus-logo"><img src="assets/images/logos/favicon.ico" class="enactus-logo"></a>
+      <a href="index.html" class="enactus-logo"><img src="assets/images/logos/favicon.ico" class="enactus-logo"></a>
       <!--Nav-->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="index">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about">About</a></li>
           <li class="drop-down"><a href="#projects">Projects</a>
             <ul>
@@ -260,7 +260,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i><a href="index">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="index.html">Home</a></li>
               <li><i class="bx bx-chevron-right"></i><a href="blog#upcomingevents">Upcoming Events</a></li>
               <li><i class="bx bx-chevron-right"></i><a href="https://enactus.ca/event-calendar/" target="_blank">Enactus Canada Events</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="assets/pdfs/Sponsorship Package.pdf" target="_blank">Sponsorship Opportunities</a></li>
