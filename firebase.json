@@ -7,7 +7,6 @@
         "destination": "/sheleads.html"
       } ],
     "ignore": [
-       "firebase.json",
        "**/.*",
        "**/node_modules/**"
     ]
