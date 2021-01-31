@@ -3,7 +3,7 @@
     "public": "public",
     "rewrites": [ {
         "source": "/sheleads",
-        "destination": "sheleads.html"
+        "destination": "/sheleads.html"
       } ],
     "ignore": [
        "firebase.json",
