@@ -1,6 +1,15 @@
 {
   "hosting": {
     "public": "public",
-    "cleanUrls": true
+    "redirects": [ {
+        "source": "/sheleads",
+        "destination": "sheleads.html",
+        "type": 301
+      } ],
+    "ignore": [
+       "firebase.json",
+       "**/.*",
+       "**/node_modules/**"
+    ]
   }
 }
