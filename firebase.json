@@ -1,10 +1,9 @@
 {
   "hosting": {
     "public": "public",
-    "redirects": [ {
+    "rewrites": [ {
         "source": "/sheleads",
-        "destination": "/sheleads.html",
-        "type": 301
+        "destination": "sheleads.html"
       } ],
     "ignore": [
        "firebase.json",
