@@ -3,7 +3,7 @@
     "public": "public",
     "redirects": [ {
         "source": "/sheleads",
-        "destination": "sheleads.html",
+        "destination": "https:www.enactusot.com/sheleads.html",
         "type": 301
       } ],
     "ignore": [
