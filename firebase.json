@@ -3,7 +3,7 @@
     "public": "public",
     "redirects": [ {
         "source": "/sheleads",
-        "destination": "sheleads.html",
+        "destination": "/sheleads.html",
         "type": 301
       } ],
     "ignore": [
