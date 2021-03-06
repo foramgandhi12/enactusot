@@ -1,10 +1,14 @@
 {
   "hosting": {
     "public": "public",
+    "cleanUrls": true,
+    "rewrites": [ {
+        "source": "/sheleads",
+        "destination": "/sheleads.html"
+      } ],
     "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+       "**/.*",
+       "**/node_modules/**"
     ]
   }
 }

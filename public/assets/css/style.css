@@ -912,6 +912,20 @@ padding-right: 1px;
   color: #fff;
 }
 
+.cta .cta-btn1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 50px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 .cta .cta-btn:hover {
   background: #ffc451;
   border-color: #ffc451;
@@ -3455,11 +3469,48 @@ video {
 
 /*Social Innovation Design Sprint*/
 
-#sidsbanner {
-  height:600px;
-  background: url("../images/logos/Social Innovation Design Sprint Webpage.png") top center;
-  background-size: cover;
-  position: relative; }
+  #sidsbanner {
+    height:600px;
+    background: url("../images/logos/Social Innovation Design Sprint Webpage.png") top center;
+    background-size: cover;
+    position: relative; 
+  }
+
+  #question {
+    padding: 10px 10px 0px 10px;
+    background-color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #cta1 {
+    background: none;
+    background-color: #30343d;
+  }
+
+  #ctabutton {
+    color: #a3bbad;
+    border: 3px solid #a3bbad !important;
+    font-size: 20px !important;
+  }
+
+  #ctabutton:hover {
+    color: #30343d;
+    background-color: #a3bbad;
+  }
+
+  #darkgrey-color1 {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    #logo {
+      margin-bottom: 8%;
+      width: 225px;
+    }
+  }
 
   #sidscards .container {
     position: relative;
@@ -3531,14 +3582,6 @@ video {
     width: 20%;
     padding: 15px;
   }
-
-  #sidsapply {
-    background-color: #30343d;
-  }
-
-  #sidsapply .container {
-    padding-top: 20px;
-  }
   
   #darkgrey-color {
     color: #30343d;
@@ -3553,6 +3596,13 @@ video {
     color: #e75d2a;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
+  }
+
+  #orange-color1 {
+    color: #e75d2a;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
   }
 
   /*.font-montserrat p {
@@ -3613,6 +3663,7 @@ video {
     color: #30343d;
     font-size: 55px;
     max-width: 100%;
+    text-align: center;
   }
 
   .indent {
@@ -3630,15 +3681,23 @@ video {
   .btn1 {
     border: 10px solid black;
     background-color: #30343d;
-    padding: 40px 80px;
-    font-size: 16px;
+    padding: 20px 50px;
     cursor: pointer;
+  }
+
+  #sidsapply {
+    background-color: #30343d;
+  }
+
+  #sidsapply .container {
+    background-color: #30343d;
+    padding-top: 20px;
   }
 
   .application {
     border-color: #a3bbad;
     color: #a3bbad;
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .application:hover {
