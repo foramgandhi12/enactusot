@@ -1693,7 +1693,6 @@ padding-top: 40px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   padding-left: 30px;
-  padding-right: 10px;
 }
 
 #mission .section-title{
@@ -1720,7 +1719,7 @@ padding-top: 40px;
   font: bold;
   font-size: large;
   font-family: "Open Sans", sans-serif;
-  white-space: nowrap;
+  white-space: break-spaces;
 
 }
 
@@ -2683,10 +2682,10 @@ video {
 }
  
 #ryvbanner {
-  height:600px;
-  background: url("../images/logos/Raise Your Voice Logo (2).png") top center;
+  height: 600px;
+  background: url("../images/raise your voice/Logo.svg") top center;
   background-size: cover;
-  position: relative; }
+  position: relative;}
 
   #ryvcards .container {
     position: relative;
@@ -2882,6 +2881,8 @@ video {
   p.font-style {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 160%;
+    display: table-cell;
+    vertical-align: middle;
   } 
 
   section #sheforshecards .team {
@@ -2898,16 +2899,19 @@ video {
     text-decoration: none;
     outline: none;
     color: white;
-    background-color: #db8fba;
+    background-color: #e06daa;
     border: none;
     border-radius: 8px;
     box-shadow: 0 9px #999;
   }
   
-  .button1:hover {background-color: #db8fba}
+  .button1:hover {
+    background-color: #e06daa;
+    outline: none;
+  }
 
   .button1:active {
-    background-color: #db8fba;
+    background-color: #e06daa;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
